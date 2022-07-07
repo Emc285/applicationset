@@ -10,7 +10,7 @@ spec:
   generators:
   - list:
       elements:
-        - cluster: engineering-dev
+        - cluster: eng-dev
           url: https://1.2.3.4
       template:
         metadata: {}

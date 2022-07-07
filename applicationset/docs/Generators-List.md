@@ -1,6 +1,6 @@
 # List Generator
 
-The List generator generates parameters based on any list of key/value pairs as long as the values are string values. In this example, we're targeting a local cluster named `engineering-dev`:
+The List generator generates parameters based on any list of key/value pairs as long as the values are string values. In this example, we're targeting a local cluster named `eng-dev`:
 ```yaml
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
@@ -10,7 +10,7 @@ spec:
  generators:
  - list:
      elements:
-     - cluster: engineering-dev
+     - cluster: eng-dev
        url: https://kubernetes.default.svc
 #    - cluster: engineering-prod
 #      url: https://kubernetes.default.svc

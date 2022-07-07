@@ -63,7 +63,7 @@ spec:
   generators:
   - list:
       elements:
-        - cluster: engineering-dev
+        - cluster: eng-dev
           url: https://kubernetes.default.svc
       template:
         metadata: {}

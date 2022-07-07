@@ -171,7 +171,7 @@ The `config.json` files contain information describing the cluster (along with e
   "asset_id": "11223344",
   "cluster": {
     "owner": "cluster-admin@company.com",
-    "name": "engineering-dev",
+    "name": "eng-dev",
     "address": "https://1.2.3.4"
   }
 }
@@ -182,7 +182,7 @@ Git commits containing changes to the `config.json` files are automatically disc
 aws_account: 123456
 asset_id: 11223344
 cluster.owner: cluster-admin@company.com
-cluster.name: engineering-dev
+cluster.name: eng-dev
 cluster.address: https://1.2.3.4
 ```
 

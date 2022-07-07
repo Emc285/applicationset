@@ -53,7 +53,7 @@ spec:
  generators:
  - list:
      elements:
-     - cluster: engineering-dev
+     - cluster: eng-dev
        url: https://kubernetes.default.svc
 #    - cluster: engineering-prod
 #      url: (another cluster API url)
@@ -143,7 +143,7 @@ spec:
   generators:
   - list:
       elements:
-        - cluster: engineering-dev
+        - cluster: eng-dev
           url: https://kubernetes.default.svc
       template: # <--- A template under a list generator
         metadata: {}

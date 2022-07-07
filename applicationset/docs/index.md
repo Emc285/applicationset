@@ -25,7 +25,7 @@ spec:
   generators:
   - list:
       elements:
-      - cluster: engineering-dev
+      - cluster: eng-dev
         url: https://1.2.3.4
       - cluster: engineering-prod
         url: https://2.4.6.8
@@ -85,7 +85,7 @@ spec:
   source:
     repoURL: https://github.com/infra-team/cluster-deployments.git
     targetRevision: HEAD
-    path: guestbook/engineering-dev
+    path: guestbook/eng-dev
   destination:
     server: https://1.2.3.4
     namespace: guestbook
